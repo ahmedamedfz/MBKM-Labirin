@@ -1,13 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{294ea2da-8ec8-60e2-fd4b-06477529976b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{1acf275a-dfdf-8175-9e8e-458bfd54f25d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Android.AppBundle.Editor", "Google.Android.AppBundle.Editor.csproj", "{5cef8427-3f78-37e9-7dfb-2f550e108d92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{294ea2da-8ec8-60e2-fd4b-06477529976b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294ea2da-8ec8-60e2-fd4b-06477529976b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1acf275a-dfdf-8175-9e8e-458bfd54f25d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1acf275a-dfdf-8175-9e8e-458bfd54f25d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5cef8427-3f78-37e9-7dfb-2f550e108d92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5cef8427-3f78-37e9-7dfb-2f550e108d92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

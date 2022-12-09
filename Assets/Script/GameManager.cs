@@ -1,39 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject gameOverPanel;
-    [SerializeField] TMP_Text gameOverText;
-    [SerializeField] PlayerController player;
-    [SerializeField] Hole hole;
+    [SerializeField] Ball ball;
 
-    private void Start()
-    {
-        gameOverPanel.SetActive(false);    
+    private void Start() {
+        gameOverPanel.SetActive(false);
     }
 
-    // Update is called once per frame
-    private void Update()
-    {
-        if(hole.Entered && gameOverPanel.activeInHierarchy == false)
-        {
+    private void Update() {
+        if(ball.Entered && gameOverPanel.activeInHierarchy == false){
             gameOverPanel.SetActive(true);
-            gameOverText.text = "Finished! Shoot Count : "+player.ShootCount;
         }
     }
-    public void BackToMainMenu()
-    {
+
+    public void BackToMainMenu(){
         SceneLoader.Load("MainMenu");
     }
-    public void Replay()
-    {
+    public void Replay(){
         SceneLoader.ReloadLevel();
     }
-    public void PlayNext()
-    {
+    public void PlayNext(){
         SceneLoader.LoadNextLevel();
     }
 }

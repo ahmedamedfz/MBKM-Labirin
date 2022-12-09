@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - out
+  - Out
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - UI
   - Ball
   - Ray
-  - 
+  - Out
   - 
   - 
   - 

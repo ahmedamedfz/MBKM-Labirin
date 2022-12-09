@@ -16,11 +16,11 @@ MonoBehaviour:
   down:
     name: 
   left:
-    name: sumbux
+    name: x
   up:
     name: 
   right:
-    name: sumbux
+    name: x
   above:
     name: 
   below:

@@ -1,11 +1,10 @@
 {
   "dependencies": {
     "com.individualkex.wavetools": {
-      "version": "https://github.com/IndividualKex/wavetoolkit.git",
+      "version": "file:E:/Downloads/wavetoolkit-master",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "51c7bd4ceb0df506d90bbc22a227c82dd4e4fc28"
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.collab-proxy": {
       "version": "1.17.2",

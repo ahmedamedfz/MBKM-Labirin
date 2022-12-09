@@ -16,9 +16,9 @@ MonoBehaviour:
   down:
     name: 
   left:
-    name: sumbux
+    name: x
   up:
-    name: sumbuz
+    name: z
   right:
     name: 
   above:

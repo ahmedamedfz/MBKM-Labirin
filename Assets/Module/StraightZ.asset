@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 3307504159101549932, guid: 0dbef9bbefc380242b4dcf3a0cf0cd8c, type: 3}
   down:
-    name: sumbuz
+    name: z
   left:
     name: 
   up:
-    name: sumbuz
+    name: z
   right:
     name: 
   above:
